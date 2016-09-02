@@ -39,7 +39,7 @@ public class MailUtil {
 	          
 	        Transport transport = session.getTransport();  
 	        // 连接邮件服务器  
-	        transport.connect("bing.chen@inveno.cn", "WOCHENBIN0422");  
+	        transport.connect("bing.chen@inveno.cn", "xxxxxxx");  
 	        // 发送邮件  
 	        transport.sendMessage(msg, new Address[] {new InternetAddress("1009529808@qq.com")});  
 	        // 关闭连接  
